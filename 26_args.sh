@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# set -x is use for debugging purpose
+set -x
+
 # To access the arguments 
 
 echo "First argument is $1"
