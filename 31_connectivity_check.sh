@@ -4,7 +4,8 @@
 
 read -p "which site you want to check?" site
 
-ping -c 1 $site
+# suppose below mentioned ping command ka output aapko na to terminal pe chahiye na kisi file me to hum use karenge &> dev/null command
+ping -c 1 $site  &> /dev/null
 
 #sleep 5s
 
